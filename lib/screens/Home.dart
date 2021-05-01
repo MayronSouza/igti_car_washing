@@ -15,15 +15,21 @@ class _HomeState extends State<Home> {
         ),
         backgroundColor: Colors.teal[300],
       ),
-      body: Center(
+      body: SingleChildScrollView(
+        padding: EdgeInsets.only(top: 32.0),
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          // mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
-            Padding(
-              padding: const EdgeInsets.only(left: 24.0, right: 24.0),
-              child: SizedBox(
-                width: double.infinity,
-                height: 100.0,
+            SizedBox(
+              width: double.infinity,
+              height: 112.0,
+              child: Padding(
+                padding: const EdgeInsets.only(
+                  left: 8.0,
+                  top: 16.0,
+                  right: 8.0,
+                  bottom: 16.0,
+                ),
                 child: ElevatedButton(
                   child: Text('Cadastro de Clientes',
                       style: TextStyle(
@@ -39,11 +45,16 @@ class _HomeState extends State<Home> {
                 ),
               ),
             ),
-            Padding(
-              padding: const EdgeInsets.only(left: 24.0, right: 24.0),
-              child: SizedBox(
-                width: double.infinity,
-                height: 100.0,
+            SizedBox(
+              width: double.infinity,
+              height: 112.0,
+              child: Padding(
+                padding: const EdgeInsets.only(
+                  left: 8.0,
+                  top: 16.0,
+                  right: 8.0,
+                  bottom: 16.0,
+                ),
                 child: ElevatedButton(
                   child: Text('Agendar Serviço',
                       style: TextStyle(
@@ -59,11 +70,16 @@ class _HomeState extends State<Home> {
                 ),
               ),
             ),
-            Padding(
-              padding: const EdgeInsets.only(left: 24.0, right: 24.0),
-              child: SizedBox(
-                width: double.infinity,
-                height: 100.0,
+            SizedBox(
+              width: double.infinity,
+              height: 112.0,
+              child: Padding(
+                padding: const EdgeInsets.only(
+                  left: 8.0,
+                  top: 16.0,
+                  right: 8.0,
+                  bottom: 16.0,
+                ),
                 child: ElevatedButton(
                   child: Text('Agenda',
                       style: TextStyle(
@@ -79,11 +95,16 @@ class _HomeState extends State<Home> {
                 ),
               ),
             ),
-            Padding(
-              padding: const EdgeInsets.only(left: 24.0, right: 24.0),
-              child: SizedBox(
-                width: double.infinity,
-                height: 100.0,
+            SizedBox(
+              width: double.infinity,
+              height: 112.0,
+              child: Padding(
+                padding: const EdgeInsets.only(
+                  left: 8.0,
+                  top: 16.0,
+                  right: 8.0,
+                  bottom: 8.0,
+                ),
                 child: ElevatedButton(
                   child: Text('Lista de Clientes',
                       style: TextStyle(
