@@ -33,7 +33,9 @@ class _HomeState extends State<Home> {
                     backgroundColor:
                         MaterialStateProperty.all(Colors.teal[300]),
                   ),
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.pushNamed(context, '/customers_register');
+                  },
                 ),
               ),
             ),
@@ -51,7 +53,9 @@ class _HomeState extends State<Home> {
                     backgroundColor:
                         MaterialStateProperty.all(Colors.teal[300]),
                   ),
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.pushNamed(context, '/book_service');
+                  },
                 ),
               ),
             ),
@@ -69,7 +73,9 @@ class _HomeState extends State<Home> {
                     backgroundColor:
                         MaterialStateProperty.all(Colors.teal[300]),
                   ),
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.pushNamed(context, '/book');
+                  },
                 ),
               ),
             ),
@@ -87,7 +93,9 @@ class _HomeState extends State<Home> {
                     backgroundColor:
                         MaterialStateProperty.all(Colors.teal[300]),
                   ),
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.pushNamed(context, '/customers_list');
+                  },
                 ),
               ),
             ),
